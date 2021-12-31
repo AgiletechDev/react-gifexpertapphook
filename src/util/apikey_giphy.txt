@@ -1,0 +1,2 @@
+ const apiKey = 'PfabA09oAdppXAfwo77QoGFe0yJk7GN7';
+ const resp   = await fetch(`http://api.giphy.com/v1/gifs/random?api_key=${ apiKey }`);
